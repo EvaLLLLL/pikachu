@@ -1,0 +1,13 @@
+{
+  "name": "pikachu",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/pikachu.html --no-minify --public-url ./"
+  },
+  "description": "pikachu",
+  "main": "./dist/pikachu.html",
+  "repository": "git@github.com:EvaLLLLL/pikachu.git",
+  "author": "lyhhh <17610603221@163.com>",
+  "license": "MIT",
+  "private": false
+}
