@@ -1,97 +1,102 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>pikachu</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>pikachu</title>
 </head>
 <body>
 <div id="demo"></div>
 <style id="demo2"></style>
 <div id="buttons">
-    <button id="btnPause">暂停</button>
-    <button id="btnPlay" style="display: none">播放</button>
-    <button id="btnReplay" style="display: none">重播</button>
-
-    <button id="btnSlow">慢速</button>
-    <button id="btnNormal">中速</button>
-    <button id="btnFast">快速</button>
+	<button id="btnPause">暂停</button>
+	<button id="btnPlay" style="display: none">播放</button>
+	<button id="btnReplay" style="display: none">重播</button>
+	
+	<button id="btnSlow">慢速</button>
+	<button id="btnNormal">中速</button>
+	<button id="btnFast">快速</button>
 </div>
 <div id="html">
-    <style>
-        *{box-sizing: border-box;}
-        *::before, *::after{box-sizing: border-box;}
-        #buttons {
-            position: fixed;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            right: 0;
-            top: 0;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-
-        #buttons > button {
-            margin-bottom: 10px;
-            padding: 5px 10px;
-            background: #ffe602;
-            border-radius: 4px;
-            border: 1px solid #555;
-            cursor: pointer;
-            outline: none;
-        }
-
-        #html {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 60vh;
-        }
-
-        #demo2 {
-            display: none;
-        }
-
-        #demo {
-            position: fixed;
-            height: 40vh;
-            top: 0;
-            left: 0;
-            width: 100%;
-            overflow-y: auto;
-            background-color: white;
-        }
-
-        #demo::-webkit-scrollbar { 
-            display: none;
-        }
-    </style>
-    <div class="skin">
-        <div class="eye left"></div>
-        <div class="eye right"></div>
-        <div class="nose">
-            <div class="yuan"></div>
-        </div>
-        <div class="face left">
-        </div>
-        <div class="face right">
-        </div>
-        <div class="mouth">
-            <div class="up">
-                <div class="lip left"></div>
-                <div class="lip right"></div>
-            </div>
-            <div class="down">
-                <div class="yuan1">
-                    <div class="yuan2"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="pikachu.js"></script>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		*::before, *::after {
+			box-sizing: border-box;
+		}
+		#buttons {
+			position: fixed;
+			z-index: 10;
+			display: flex;
+			flex-direction: column;
+			right: 0;
+			top: 0;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+		
+		#buttons > button {
+			margin-bottom: 10px;
+			padding: 5px 10px;
+			background: #ffe602;
+			border-radius: 4px;
+			border: 1px solid #555;
+			cursor: pointer;
+			outline: none;
+		}
+		
+		#html {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 60vh;
+		}
+		
+		#demo2 {
+			display: none;
+		}
+		
+		#demo {
+			position: fixed;
+			height: 40vh;
+			top: 0;
+			left: 0;
+			width: 100%;
+			overflow-y: auto;
+			background-color: white;
+		}
+		
+		#demo::-webkit-scrollbar {
+			display: none;
+		}
+	</style>
+	<div class="skin">
+		<div class="eye left"></div>
+		<div class="eye right"></div>
+		<div class="nose">
+			<div class="yuan"></div>
+		</div>
+		<div class="face left">
+		</div>
+		<div class="face right">
+		</div>
+		<div class="mouth">
+			<div class="up">
+				<div class="lip left"></div>
+				<div class="lip right"></div>
+			</div>
+			<div class="down">
+				<div class="yuan1">
+					<div class="yuan2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="pikachu.js"></script>
 </body>
 </html>
